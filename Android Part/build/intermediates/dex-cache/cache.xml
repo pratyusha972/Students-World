@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/pratyusha/ssad_2015_team22/source/StudentsWorld/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/pratyusha/ssad_2015_team22/source/StudentsWorld/app/build/intermediates/pre-dexed/debug/classes-e78ddd552cbec19078aad541cfc13cffdcc22c1e.jar" />
+    </item>
+    <item
+        jar="/home/pratyusha/ssad_2015_team22/source/StudentsWorld/app/libs/android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="/home/pratyusha/ssad_2015_team22/source/StudentsWorld/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.4-171ff27cda761eed68034ef1d3cf579384adc530.jar" />
+    </item>
+    <item
+        jar="/home/pratyusha/ssad_2015_team22/source/StudentsWorld/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="/home/pratyusha/ssad_2015_team22/source/StudentsWorld/app/build/intermediates/pre-dexed/debug/classes-0373915c344b423d53a516e25a3c3b9b3b2434e7.jar" />
+    </item>
+    <item
+        jar="/home/pratyusha/ssad_2015_team22/source/StudentsWorld/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/pratyusha/ssad_2015_team22/source/StudentsWorld/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-e4c8c66bd7bc9bdb898be08ef6a85865c33d61a4.jar" />
+    </item>
+    <item
+        jar="/home/pratyusha/ssad_2015_team22/source/StudentsWorld/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/pratyusha/ssad_2015_team22/source/StudentsWorld/app/build/intermediates/pre-dexed/debug/classes-9b2b2bb6685f45fd7f974f04cf69ad8342999036.jar" />
+    </item>
+    <item
+        jar="/home/pratyusha/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/pratyusha/ssad_2015_team22/source/StudentsWorld/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-067177339b34538529de7e1d0100223857b89fcc.jar" />
+    </item>
+    <item
+        jar="/home/pratyusha/ssad_2015_team22/source/StudentsWorld/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/home/pratyusha/ssad_2015_team22/source/StudentsWorld/app/build/intermediates/pre-dexed/debug/classes-58f21af66f5059c01c463e9da17b845accd4a725.jar" />
+    </item>
+
+</items>
