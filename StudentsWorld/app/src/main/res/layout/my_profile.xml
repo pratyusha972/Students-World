@@ -1,0 +1,42 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="10dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dip" android:text="My Profile" android:gravity="center" android:textSize="25sp" android:textStyle="bold"/>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:weightSum="0.75">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:text="FIRST NAME"/>
+            <TextView android:id="@+id/first_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:weightSum="0.75">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:text="LAST NAME"/>
+            <TextView android:id="@+id/last_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:weightSum="0.75">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:text="COLLEGE"/>
+            <TextView android:id="@+id/college_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:gravity="center" android:text="name"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:weightSum="0.75">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:text="DATE OF BIRTH"/>
+            <TextView android:id="@+id/dob" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:weightSum="0.75">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:text="MOBILE"/>
+            <TextView android:id="@+id/mobile_no" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:gravity="center" android:text="name"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="left" android:text="ADDRESS"/>
+            <TextView android:id="@+id/address_line1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:text="name"/>
+            <TextView android:id="@+id/address_line2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:gravity="center" android:text="name"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:weightSum="0.75">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:text="START DEGREE"/>
+            <TextView android:id="@+id/start_degree" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:gravity="center" android:text="name"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:weightSum="0.75">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:text="END DEGREE"/>
+            <TextView android:id="@+id/end_degree" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:gravity="center" android:text="name"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:weightSum="0.75">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:text="DEGREE"/>
+            <TextView android:id="@+id/degree" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:gravity="center" android:text="name"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

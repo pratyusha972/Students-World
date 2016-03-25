@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Home"
+        android:id="@+id/nav_item_inbox">
+    </item>
+
+
+    <item android:title="Profile"
+        android:id="@+id/profile"
+        />
+
+
+
+    <item android:title="Edit Profile" android:id="@+id/edit_profile"/>
+    <item android:title="Test History" android:id="@+id/test_history"/>
+    <item android:title="Contact Us" android:id="@+id/contact"/>
+<item android:title="Logout"
+android:id="@+id/logout"/>
+
+
+</menu>

@@ -1,0 +1,15 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:padding="10dip" android:gravity="center" android:textSize="25dp" android:id="@+id/title"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="10dip" android:textColor="#e30000" android:textStyle="bold" android:text="Description" android:textSize="20dp" android:layout_marginTop="30dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:textSize="15dp" android:padding="10dip" android:id="@+id/describe"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="10dip" android:textColor="#e30000" android:textStyle="bold" android:text="Tags" android:textSize="20dp" android:layout_marginTop="20dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:padding="10dip" android:textSize="15dp" android:id="@+id/tag"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="10dip" android:textColor="#e30000" android:textStyle="bold" android:text="Posted by" android:textSize="20dp" android:layout_marginTop="20dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:padding="10dip" android:textSize="15dp" android:id="@+id/email"/>
+    </LinearLayout>
+</ScrollView>

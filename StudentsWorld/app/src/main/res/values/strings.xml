@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Students World</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_profile">My Profile</string>
+    <string name="nav_item_edit">Edit Profile</string>
+    <string name="nav_item_his">Test History</string>
+    <string name="nav_item_logout">Logout</string>
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_profile</item>
+        <item>@string/nav_item_his</item>
+        <item>nav_item_edit</item>
+        <item>nav_item_logout</item>
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_home">Home</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Login-->
+    <string name="pwd">Password</string>
+    <string name="login_title">LOGIN</string>
+    <!--Register-->
+    <string name="register_title">REGISTER</string>
+    <string name="btnRegister">Register</string>
+    <!--edit prohile -->
+    <string name="btnEdit">Edit Profile</string>
+    <string name="btnpost_submit">Submit</string>
+    <string name="btnedit">Edit Profile</string>
+</resources>

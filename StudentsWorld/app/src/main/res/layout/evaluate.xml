@@ -1,0 +1,23 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dp" android:layout_gravity="center" android:text="Score" android:textColor="@color/colorPrimary" android:textSize="30sp" android:textStyle="bold"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dp" android:layout_gravity="center" android:id="@+id/scor" android:textSize="25sp" android:textColor="@color/colorPrimary" android:textStyle="bold"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Question" android:textSize="25sp" android:textColor="@color/colorPrimary" android:textStyle="bold" android:padding="10dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:id="@+id/ques" android:padding="10dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Your Response" android:textSize="25sp" android:textColor="@color/colorPrimary" android:textStyle="bold" android:padding="10dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/myres" android:padding="10dp" android:layout_marginTop="5dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Correct Answer" android:textSize="25sp" android:textColor="@color/colorPrimary" android:textStyle="bold" android:padding="10dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/correct" android:layout_marginTop="5dp" android:padding="10dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Explanation" android:textSize="25sp" android:textColor="@color/colorPrimary" android:textStyle="bold" android:padding="10dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/explanation" android:layout_marginTop="10dp" android:padding="10dp"/>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_alignParentEnd="true" android:weightSum="0.5">
+        <Button android:id="@+id/prev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:background="#ff6347" android:onClick="prevquestion" android:layout_marginBottom="20dp" android:layout_marginLeft="15dp" android:text="Previous" android:textColor="#fff" android:layout_weight="0.04"></Button>
+        <Button android:id="@+id/next" android:layout_width="wrap_content" android:layout_marginLeft="150dp" android:padding = "10dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:paddingRight="20dp" android:layout_marginBottom="20dp" android:layout_marginRight="25dp" android:background="#ff6347" android:onClick="nextquestion" android:text="Next" android:textColor="#fff"
+            android:clickable="true"></Button>
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>

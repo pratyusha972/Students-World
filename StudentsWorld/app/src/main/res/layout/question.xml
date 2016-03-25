@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" tools:context="com.example.sahithi_rvs.studentsworld.activity.QuestionFragment">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="match_parent" android:orientation="vertical" android:layout_alignParentEnd="true">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_alignParentEnd="true" android:weightSum="0.5">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:padding="10dp" android:text="Question" android:gravity="left" android:layout_marginTop="10dp" android:textSize="30sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:layout_weight="0.01"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:id="@+id/quesno" android:padding="10dp" android:layout_marginLeft="5dp" android:text="1" android:gravity="left" android:layout_marginTop="10dp" android:textSize="30sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:layout_weight="0.9"/>
+        </LinearLayout>
+        <TextView android:id="@+id/question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dip" android:text="compute 2+2" android:padding="10dp" android:gravity="left" android:layout_marginTop="10dp" android:textSize="25sp" android:textStyle="bold"/>
+        <RadioGroup android:id="@+id/choices" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/option_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dp" android:text="1 " android:checked="false"/>
+            <RadioButton android:id="@+id/option_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dp" android:text="2 " android:checked="false"/>
+            <RadioButton android:id="@+id/option_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dp" android:text="4 " android:checked="false"/>
+            <RadioButton android:id="@+id/option_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dp" android:text="8 " android:checked="false"/>
+        </RadioGroup>
+        <TextView android:id="@+id/showresponse" android:gravity="center" android:layout_marginLeft="@dimen/abc_text_size_body_1_material" android:layout_width="207dp" android:layout_height="37dp" android:layout_marginTop="40dp" android:layout_gravity="center" android:textSize="20dp" android:textStyle="bold" android:text="Your Response"/>
+        <TextView android:id="@+id/your_response" android:layout_width="wrap_content" android:layout_height="25dp" android:layout_gravity="center" android:text="NA" android:layout_marginTop="10dp"></TextView>
+        <Button android:id="@+id/submit" android:layout_width="106dp" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginLeft="135dp" android:background="#ff6347" android:layout_gravity="left" android:onClick="endtest" android:text="End Test" android:textColor="#fff" android:gravity="center"></Button>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_alignParentEnd="true" android:weightSum="0.5">
+            <Button android:id="@+id/prev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="10dp" android:layout_marginTop="25dp" android:layout_marginBottom="20dp" android:layout_marginLeft="5dp" android:background="#ff6347" android:onClick="prevquestion" android:text="Previous" android:textColor="#fff" android:layout_weight="0.04"></Button>
+            <Button android:id="@+id/next" android:layout_width="wrap_content" android:padding="10dp" android:layout_marginBottom="20dp" android:layout_marginLeft="175dp" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginRight="25dp" android:background="#ff6347" android:onClick="nextquestion" android:text="Next" android:textColor="#fff"></Button>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

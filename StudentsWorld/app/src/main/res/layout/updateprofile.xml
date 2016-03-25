@@ -1,0 +1,16 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="10dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dip" android:text="My Profile" android:gravity="center" android:textSize="25sp" android:textStyle="bold"/>
+        <EditText android:id="@+id/first_name" android:layout_width="fill_parent" android:layout_height="wrap_content"  android:hint="enter first_name" android:inputType="textEmailAddress"/>
+        <EditText android:id="@+id/degree" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter your Degree" android:inputType="textEmailAddress"/>
+        <EditText android:id="@+id/last_name" android:layout_width="fill_parent" android:layout_height="wrap_content"  android:hint="Enter your Last Name" android:inputType="textEmailAddress"/>
+        <EditText  android:id="@+id/college_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter your College Name" android:inputType="textEmailAddress"/>
+        <EditText  android:id="@+id/start_degree" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter Starting Date of Your Degree" android:inputType="date"/>
+        <EditText  android:id="@+id/end_degree" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter Probable End Date of Your Degree" android:inputType="date"/>
+        <EditText  android:id="@+id/dob" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter your DOB" android:inputType="date"/>
+        <EditText  android:id="@+id/address_line1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter your Address" android:inputType="textEmailAddress"/>
+        <EditText android:id="@+id/address_line2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter your Address" android:inputType="textEmailAddress"/>
+        <EditText  android:id="@+id/mobile_no" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter your Mobile No" android:inputType="textEmailAddress"/>
+        <Button android:id="@+id/btnedit" android:layout_width="136dp" android:layout_height="wrap_content" android:layout_marginTop="20dip" android:background="#ff6347" android:onClick="editUser" android:text="@string/btnedit" android:textColor="#fff" android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>

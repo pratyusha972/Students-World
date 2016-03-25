@@ -1,0 +1,150 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/containsed_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbarsed"
+                layout="@layout/toolbar" />
+        </LinearLayout>
+        <FrameLayout
+            android:id="@+id/container_body"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <!-- View Title Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="STUDENT WORLD"
+            android:textColor="@color/black"
+            android:padding="7dp"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="REGISTER"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="23sp"
+            android:padding="5dp"
+            android:textStyle="bold" />
+        <!-- Name Label -->
+
+       <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+            <!--android:text="@string/name"-->
+        <!-- Name TextField -->
+
+        <EditText
+            android:id="@+id/registerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Name"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Email Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             />
+        <!-- Email TextField -->
+
+        <EditText
+            android:id="@+id/registerEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email ID"
+            android:gravity="center"
+            android:inputType="textEmailAddress" />
+
+        <!-- Password Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            />
+        <!-- Password TextField -->
+
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:gravity="center"
+            android:inputType="textPassword" />
+
+        <!-- Error message -->
+
+        <TextView
+            android:id="@+id/register_error"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip"
+            android:textColor="#e30000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="#228b22"
+            android:onClick="registerUser"
+            android:text="@string/btnRegister"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/btnLinkToLoginScreen"
+            android:layout_width="135dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="20dip"
+            android:background="#228b22"
+            android:onClick="navigatetoLoginActivity"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.DrawerLayout>
